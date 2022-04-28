@@ -1,0 +1,178 @@
+/* Configurações Iniciais */
+:root {
+    --pink: #ff0062;
+    --white: #f5f5f5;
+    --black: #202020;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+body {
+    background-color: var(--black);
+}
+
+/* Mensagem na Header */
+.header {
+    background-color: var(--pink);
+    height: 40px;
+}
+
+.header h1 {
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Área do Formulário de Captura */
+.main-form {
+    height: 600px;
+    background-color: var(--black);
+    background-image: url(imgs/main-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    height: 380px;
+    width: 680px;
+    background-color: #ff0062c5;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 15px;
+}
+
+/* Conteúdo do Formulário*/
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.content h2 {
+    text-align: center;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.content p {
+    text-align: center;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 120px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.content form {
+    margin: 0 150px;
+    text-align: center;
+}
+
+.content input {
+    margin-top: 15px;
+    height: 40px;
+    width: 280px;
+    background-color: #202020ab;
+    border: none;
+}
+
+.content input::placeholder {
+    color: var(--white);
+    text-align: center;
+    font-size: 20px;
+}
+
+.content input:focus::placeholder {
+    color: #ffffff00;
+}
+
+.content input, textarea {
+    color: var(--white);
+    text-align: center;
+    font-size: 15px;
+}
+
+.content button {
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    background-color: var(--white);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--pink);
+    border: none;
+    cursor: pointer;
+}
+
+/* Cronograma */
+
+.schedule {
+    height: 600px;
+    background-color: var(--white);
+}
+
+.schedule-content {
+    height: 600px;
+}
+
+.schedule-content h2 {
+    text-align: center;
+    color: var(--pink);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 800;
+    padding-top: 50px;
+}
+
+.mods {
+    justify-content: space-between;
+    margin: 0 auto;
+    height: 400px;
+    width: 1200px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.modulos {
+    margin: 0 30px;
+    height: 220px;
+    width: 200px;
+    background-color: var(--pink);
+    position: relative;
+    display: inline-flex;
+    justify-content: space-between; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.modulos h3 {
+    width: 200px;
+    text-align: center;
+    color: var(--white);
+    padding: 10px 0;
+    background-color: rgb(0, 0, 0);
+}
+
+.modulos p {
+    color: var(--white);
+    font-weight: 400;
+    margin: 0 1px;
+    position: relative;
+    top: 22%;
+}

@@ -84,6 +84,7 @@ body {
 }
 
 .content input {
+    margin: 0 auto;
     margin-top: 15px;
     height: 40px;
     width: 280px;
@@ -118,6 +119,12 @@ body {
     color: var(--pink);
     border: none;
     cursor: pointer;
+    transition: 0.4s;
+}
+
+.content button:hover {
+    background-color: #ffffff;
+    transition: 0.4s;
 }
 
 /* Cronograma */
@@ -128,6 +135,7 @@ body {
 }
 
 .schedule-content {
+    margin: 0 auto;
     height: 600px;
 }
 
@@ -175,4 +183,94 @@ body {
     margin: 0 1px;
     position: relative;
     top: 22%;
+}
+
+.person {
+    height: 600px;
+    background-color: var(--pink);
+}
+
+.person-content {
+    text-align: center;
+    padding-top: 25px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.person-content h2 {
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    color: var(--white);
+}
+
+.person-content h3 {
+    margin: 10px auto;
+    font-size: 26px;
+    font-weight: 700;
+    padding-bottom: 5px;
+    color: var(--white);
+    text-transform: capitalize;
+}
+
+.person-content img {
+    margin-top: 25px;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.person-content p {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 300;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.last-btn {
+    height: 400px;
+    background-color: var(--white);
+    text-align: center;
+}
+
+.last-btn-content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.last-btn h2 {
+    color: var(--pink);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    width: 400px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.last-btn button {
+    margin-top: 20px;
+    text-align: center;
+    height: 40px;
+    width: 280px;
+    background-color: var(--pink);
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+}
+
+.last-btn button:hover {
+    background-color: #fd1f74;
+}
+
+.last-btn-content a {
+    text-decoration: none;
+    color: var(--white);
 }

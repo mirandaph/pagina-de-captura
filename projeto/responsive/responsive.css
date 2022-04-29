@@ -1,0 +1,98 @@
+@media screen and (max-width: 1150px){
+    .mods {
+        width: 900px;
+    }
+    
+    .modulos {
+        height: 180px;
+        width: 160px;
+    }
+
+    .modulos h3 {
+        width: 160px;
+    }
+
+    .modulos p {
+        margin: 0 10px;
+        top: 16%;
+    }
+}
+
+@media screen and (max-width: 930px){
+    .header {
+        height: 30px;
+    }
+    .header h1 {
+        font-size: 22px;
+    }
+    .schedule {
+        height: 1000px;
+    }
+    .mods {
+        height: 200px;
+        width: 200px;
+    }
+    .modulos {
+        margin: 14px 30px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .header {
+        height: 24px;
+    }
+    .header h1 {
+        font-size: 18px;
+    }
+    .form {
+        height: 280px;
+        width: 580px; 
+    }
+    .content h2 {
+        font-size: 24px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+    .content input {
+        height: 30px;
+        width: 250px;
+    }
+    .content button {
+        height: 30px;
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 5vh;
+    }
+    .header h1 {
+        font-size: 1.8vh;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .form {
+        height: 60%;
+        width: 95%; 
+    }
+    .content h2 {
+        font-size: 2vh;
+    }
+    .content p {
+        font-size: 1.5vh;
+    }
+    .content form {
+        margin: 0 auto;
+    }
+    .content input {
+        height: 3vh;
+        width: 25vh;
+    }
+    .content button {
+        height: 3vh;
+        width: 25vh;
+    }
+}
